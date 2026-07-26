@@ -4,7 +4,7 @@ import Cookies from 'js-cookie';
 import { redirect } from 'next/navigation';
 
 const api = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_URL || 'http://focus-flow.somee.com/api',
+  baseURL: process.env.NEXT_PUBLIC_API_URL || '/api',
   timeout: 10000,
 });
 
