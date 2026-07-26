@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const axiosInstance = axios.create({
-  baseURL: "https://localhost:7279/api",
+  baseURL: "http://focus-flow.somee.com/api",
   headers: {
     "Content-Type": "application/json",
   },
