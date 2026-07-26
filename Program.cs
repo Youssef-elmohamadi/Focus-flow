@@ -27,7 +27,7 @@ namespace Tasks_Project
             {
                 options.AddPolicy("AllowFrontend", policy =>
                 {
-                    policy.WithOrigins("http://localhost:3000")
+                    policy.WithOrigins("http://localhost:3000", "https://focus-flow-six-pearl.vercel.app")
                           .AllowAnyMethod()
                           .AllowAnyHeader();
                 });
